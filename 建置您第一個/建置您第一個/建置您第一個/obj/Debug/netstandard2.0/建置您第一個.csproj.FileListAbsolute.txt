@@ -1,0 +1,12 @@
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\bin\Debug\netstandard2.0\建置您第一個.deps.json
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\bin\Debug\netstandard2.0\建置您第一個.dll
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\bin\Debug\netstandard2.0\建置您第一個.pdb
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.csprojAssemblyReference.cache
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.csproj.CoreCompileInputs.cache
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.AssemblyInfoInputs.cache
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.AssemblyInfo.cs
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\XamlC.stamp
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.dll
+D:\coding\Xamarin\建置您第一個\建置您第一個\建置您第一個\obj\Debug\netstandard2.0\建置您第一個.pdb
