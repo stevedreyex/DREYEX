@@ -1,0 +1,28 @@
+1. v I can create a student given a name.
+2. v I can create a department given its name.
+3. v I can add a student to a department.
+   v 3.1 A student knows his/her depertment.
+   v 3.2 A department knows its students.
+   3.2.1 A dept has many students, how to manage students data? 
+   3.2.1.1 we need something that can "grow", because students come and go.
+           A array? A vector? A list? A table (map)? 
+   3.2.1.2 How does the dept look 
+           up for its students?
+       This is a "design" problem! What you choose affect how you do data 
+       maganement (e.g, look up). If you have an-array type data structure,
+       there will be no "gaps" in your data, and you must know the total 
+       number of students in advance; if you have a list, you have freedom 
+       in size and there can be gaps in student data, but you cannot look 
+       up students by index. By now it should be clear to you that students
+       have ID, which is used to look up students.
+   for now, we will choose vector, a container that can grow in size when necessary.
+   v 3.3 A dept knows how many students it has.
+==
+
+7. I can create the departments from data in a file.
+    create a method to create depts from a file.
+      design problem: what to return to hold the refs to the depts created?
+       note: devc++ aouto-inserts a eol when you press save. Use notepad to prepare input file,
+       and make sure that you end not at a new line.
+8. I can create students from data in a file.
+9. I can get student in a dept by name.

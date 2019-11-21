@@ -1,0 +1,5 @@
+Computer Science,OOP,2009F,Michael Jackson:60,Mariah Carey:70,Mick Jagger:75
+Computer Science,Data Structures,2010S,Michael Jackson:80,Bon Jovi:40,Mariah Carey:65
+Music,Voice,2009F,Bon Jovi:68,Mick Jagger:74
+Music,Opera,2010S,Bon Jovi:86,Mick Jagger:49
+History,World History,2010S,Mariah Carey:76,Mick Jagger:64,Avril Lavigne:77

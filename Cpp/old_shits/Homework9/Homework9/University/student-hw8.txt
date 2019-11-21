@@ -1,0 +1,5 @@
+Student,Michael Jackson,Computer Science
+Student,Bon Jovi,Computer Science
+GraduateStudent,Mariah Carey,Computer Science
+GraduateStudent,Mick Jagger,Music
+GraduateStudent,Avril Lavigne,History

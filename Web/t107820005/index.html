@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<script type="text/css">
+			
+		</script>
+	</head>
+	<body>
+		<!-- clock block -->
+	    <p id="demo" style="position: absolute;top:10px;right: 10px;font-family: 'Lato', sans-serif;"></p>
+
+		<div class="reveal">
+			<div class="slides">
+			<!-- 科學家故事 -->
+			
+				<section>
+					<h2><font color=white>Steve Jobs</font></h2>
+					<p>Father of Apple</p>
+				</section>
+				
+				<section>
+					<section>
+						<h2><font color=white>Pirates of Silicon Valley</font></h2>
+						<p><img src="./images/posv.jpg"></p>
+						
+					</section>
+				</section>
+				
+				
+				<section>
+					<h2><font color=White>Life before 30</font></h2>
+					<p>He dropped out of university to do <font color=silver>what he want</font></p>
+					<p>Then he founded the coporation "Apple"</p>
+				</section>
+
+
+				<section>
+					<h2><font color=White>Things don't always go so well</font></h2>
+					<img width="600" src="./images/fired.jpeg">
+
+				</section>
+
+				<section>
+					<h2><font color=white>Hard Work</font></h2>
+					<p>Then Jobs founded NeXT.Inc</p>
+				</section>
+
+				<section>
+					<h2><font color=white>Turing Point</font></h2>
+					<p>NeXT.Inc was bought by Apple.</p>
+				</section>
+
+				<section>
+					<h2><font color=white>His early death</font></h2>
+					<p>You’re already naked. There’s no reason not to follow your heart.</p>
+				</section>
+
+				<section>
+						<h2><font color=white>The end</font></h2>
+				</section>
+                <section><img width="600"src="./images/107820005.jpg"></section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+			            // counter
+            var minutes, seconds;
+            var fontSize = 50;
+            var d1 = new Date();
+
+            document.getElementById("demo").innerHTML = d1;
+
+        // <!-- clock -->
+            setInterval(function(){
+                var d2 = new Date();
+
+                minutes = Math.floor((d2 - d1) / 1000 / 60 );
+                seconds = Math.floor((d2 - d1) / 1000 % 60 );
+
+                if (minutes >= 10){
+                    console.log("seconds:"+seconds);
+                    console.log("minutes"+minutes);
+                    fontSize = 30 + seconds + 60*(minutes-1);
+                    console.log("fontSize"+fontSize);
+                    document.getElementById("demo").style.color = "Crimson";
+                    document.getElementById("demo").style.fontSize = fontSize+"pt";
+                }
+
+                var str;
+
+                if (seconds < 10)
+                    str = '0' + seconds;
+                else
+                    str = seconds;
+
+                document.getElementById("demo").innerHTML = '0' +  minutes + ':' + str;
+            }, 100);
+
+		</script>
+	</body>
+</html>
