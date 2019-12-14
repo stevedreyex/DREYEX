@@ -1,0 +1,27 @@
+<form (ngSubmit)="addMessage()">
+  <p>
+    名稱：<input type="text" name="name" [(ngModel)] = "name">
+  </p>
+
+  <p>
+    內容：<input type="text" name="name" [(ngModel)] = "content">
+  </p>
+
+  <p>
+    <button type="submit">新增留言</button>
+  </p>
+</form>
+
+<ng-container *ngFor="let message of messages">
+<p>
+  留言人： {{ message.name }}
+</p>
+
+<p>
+  訊息內容： {{ message.content }}
+</p>
+
+<p>
+  時間：
+</p>
+</ng-container>
