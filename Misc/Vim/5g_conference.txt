@@ -1,0 +1,22 @@
+資安講習（不知道要用什麼文字編輯器）
+Latest Research and Security issue on 5G Architecture and Deployment Cases
+.
+教育部來的＝＝
+.
+5Ｇ系統架構：
+是4G的100倍，多裝置，降低延遲
+WSDN, NFV, ML, 
+SDN: control plane and data plane decouple
+open flow(OF)
+NFV有點像在不同裝置裝上虛擬機，達到軟體兼容
+固網(band width)與SDN的相對性與不同狀況(radio access network)
+1. scalable design
+2. scale in function
+.
+SD-BS/ SD-Switch/ 是否可以只傳輸real data?/ 
+以computing 來design如何傳輸 雖然雲端運算很好用 但邊緣運算更能增加效率（物盡其用）
+！！在演算法上的增進！！
+在machine learning上的演算法在有限的資源下運算
+Hardware沒有辦法突破的，用Software突破
+有理想上的情況，但engineering and practical design 也是有重要性
+以及transfer這個routing的特性以及模式
