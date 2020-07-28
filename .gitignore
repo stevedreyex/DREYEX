@@ -354,6 +354,7 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+.DS_Store
 c 2018 GitHub, Inc.
 Terms
 Privacy
